@@ -1,0 +1,28 @@
+.Footer{
+    margin-top: auto;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#212529;
+    width: auto;
+    height: 50px;
+ 
+}
+
+
+.footer-container li{
+    
+    list-style-type: none;
+    /* float: left; */
+    
+}
+.footer-container li{
+    text-decoration: none;
+    color: beige;
+    margin-top: 16px;
+    
+    
+}
