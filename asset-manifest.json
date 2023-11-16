@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Textutils-web-app/static/css/main.af8645d3.chunk.css",
+    "main.js": "/Textutils-web-app/static/js/main.a1a5ac7c.chunk.js",
+    "main.js.map": "/Textutils-web-app/static/js/main.a1a5ac7c.chunk.js.map",
+    "runtime-main.js": "/Textutils-web-app/static/js/runtime-main.6cb048bc.js",
+    "runtime-main.js.map": "/Textutils-web-app/static/js/runtime-main.6cb048bc.js.map",
+    "static/js/2.e33bfa39.chunk.js": "/Textutils-web-app/static/js/2.e33bfa39.chunk.js",
+    "static/js/2.e33bfa39.chunk.js.map": "/Textutils-web-app/static/js/2.e33bfa39.chunk.js.map",
+    "index.html": "/Textutils-web-app/index.html",
+    "precache-manifest.2dd1bd573b5fb5da872d354a7c81fee4.js": "/Textutils-web-app/precache-manifest.2dd1bd573b5fb5da872d354a7c81fee4.js",
+    "service-worker.js": "/Textutils-web-app/service-worker.js",
+    "static/css/main.af8645d3.chunk.css.map": "/Textutils-web-app/static/css/main.af8645d3.chunk.css.map",
+    "static/js/2.e33bfa39.chunk.js.LICENSE.txt": "/Textutils-web-app/static/js/2.e33bfa39.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6cb048bc.js",
+    "static/js/2.e33bfa39.chunk.js",
+    "static/css/main.af8645d3.chunk.css",
+    "static/js/main.a1a5ac7c.chunk.js"
+  ]
+}
