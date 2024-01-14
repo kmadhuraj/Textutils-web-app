@@ -3,7 +3,7 @@
   flex-direction:column;
   min-height: 100vh;
 }
-
+/* 
 @media  (max-width: 600px) {
 
   .container{
@@ -11,4 +11,4 @@
     width: auto;
     
   }
-}
+} */

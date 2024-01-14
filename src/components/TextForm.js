@@ -91,20 +91,21 @@ export default function TextForm(props) {
 
   return (
     <>
+    
     <div className="Text-container" style={{color: props.mode==='info'?'black':'white'}} >
         <h2 style={margin} >{props.heading}</h2>
         <div className="mb-3">
-            <textarea className="txt-area" style={{backgroundColor: props.mode==='info'?'white':'gray',color: props.mode==='info'?'black':'white'}} name="text" value={text} onChange={handleOnChange} id="text" cols="110"  ></textarea>
+            <textarea className="txt-area w-100" style={{backgroundColor: props.mode==='info'?'white':'gray',color: props.mode==='info'?'black':'white'}} name="text" value={text} onChange={handleOnChange} id="text"  ></textarea>
         </div>
 
         <div className="btn-container">
-                <button className="btn btn-info" onClick={handleUppercase} >Convert to Uppper case</button>
+                <button className="btn btn-info " onClick={handleUppercase} >Convert to Uppper case</button>
                 <button className="btn btn-info mx-2" onClick={handleLowercase} >Convert to Lower case</button>
                 <button className="btn btn-info " onClick={handleTitlecase}>Convert to Title case</button>
                 <button className="btn btn-info mx-2" onClick={handlSentcase}>Convert to Sentence case</button>
                 <button className="btn btn-info " onClick={handleExtraSpace}>Remove Extra Space</button>
                 <button className="btn btn-info mx-2" onClick={CopyText}>{copie}</button>
-                <button className="btn btn-info  " onClick={clearText}>Clear</button>
+                <button className="btn btn-info my-2" onClick={clearText}>Clear</button>
         </div>
 
     </div>
@@ -127,7 +128,7 @@ export default function TextForm(props) {
         
 
     </div>
-
+   
 
     </>
     

@@ -52,7 +52,7 @@ function App() {
   return (
     
  <>
-<BrowserRouter>
+<BrowserRouter basename='Textutils-web-app'>
 
 <div className="main-container">
 <Navbar title="TextUtils" Hometext="Home" mode={mode} toggleMode={toggleMode}/>
